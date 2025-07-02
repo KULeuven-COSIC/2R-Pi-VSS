@@ -1,15 +1,15 @@
 
-#####################################################################
-## Source code for implementations of Round-Optimal VSS            ##
-## schemes presented in Sections 4.2 and 4.3 of the paper          ## 
-## "On Round-Optimal Computational VSS", published at CiC          ##
-## jopurnal (https://cic.iacr.org/). This code also includes       ## 
-## implementations of the synchronized two-round hash-based and    ##
-## homomorphic commitment based VSS schemes presented by Backes,   ##
-## Kate,and Patra at ASIACRYPT 2011 [BKP11].                       ##    
-## The source code implementations for original Pi VSS scheme      ##
-## is taken from https://github.com/KULeuven-COSIC/Pi-VSS          ##
-##################################################################### 
+###################################################################
+## Source code for implementations of Round-Optimal VSS          ##
+## schemes presented in Sections 4.2 and 4.3 of the paper        ## 
+## "On Round-Optimal Computational VSS", published at CiC        ##
+## jopurnal (https://cic.iacr.org/). This code also includes     ## 
+## implementations of the synchronous two-round hash-based and   ##
+## homomorphic commitment based VSS schemes presented by Backes, ##
+## Kate,and Patra at ASIACRYPT 2011 [BKP11].                     ##    
+## The source code implementations for original Pi VSS scheme    ##
+## is taken from https://github.com/KULeuven-COSIC/Pi-VSS        ##
+################################################################### 
 
 from hashlib import sha256,sha1
 from time import time
